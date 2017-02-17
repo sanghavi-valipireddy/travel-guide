@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--xmlns:tools="http://schemas.android.com/tools"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--tools:context="com.ibtspl.foodmanagement.CountDisplayFragment">-->
+
+    <!--&lt;!&ndash; TODO: Update blank fragment layout &ndash;&gt;-->
+    <!--<TextView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:text="@string/hello_blank_fragment" />-->
+
+<!--</FrameLayout>-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#CBA"
+    tools:context="com.ibtspl.foodmanagement.CountdisplayActivity">
+    <!--<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+        <!--android:id="@+id/fragment_container"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:background="#CBA"/>-->
+    <TextView android:text= " Total Count "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="30dp"
+        android:id="@+id/textTotalcount"
+        android:textSize="25sp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView android:text= "BreakfastCount :"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="30dp"
+        android:id="@+id/textbreakfast"
+        android:textSize="25sp"
+        android:layout_below="@+id/textTotalcount"/>
+    <TextView android:text= "  Count "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="30dp"
+        android:id="@+id/textbfitems"
+        android:textSize="25sp"
+        android:layout_below="@+id/textTotalcount"
+        android:layout_toRightOf="@+id/textbreakfast"/>
+    <TextView android:text= "LunchCount :"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="30dp"
+        android:id="@+id/textlunch"
+        android:textSize="25sp"
+        android:layout_below="@+id/textbreakfast"/>
+    <TextView android:text= "  Count "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="30dp"
+        android:id="@+id/textlitems"
+        android:textSize="25sp"
+        android:layout_below="@+id/textbreakfast"
+        android:layout_toRightOf="@+id/textlunch"/>
+    <TextView android:text= "SupperCount :"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="30dp"
+        android:id="@+id/textsupper"
+        android:textSize="25sp"
+        android:layout_below="@+id/textlunch"/>
+    <TextView android:text= "  Count "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="30dp"
+        android:id="@+id/textsitems"
+        android:textSize="25sp"
+        android:layout_below="@+id/textlunch"
+        android:layout_toRightOf="@+id/textsupper"/>
+
+</RelativeLayout>

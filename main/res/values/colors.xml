@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="ColorPrimary">#FF9800</color>
+    <color name="ColorPrimaryDark">#F57C00</color>
+    <color name="tabsScrollColor">#8a140e</color>
+    <color name="mdtp_accent_color">@color/ColorPrimary</color>
+    <color name="mdtp_accent_color_dark">@color/ColorPrimaryDark</color>
+    <color name="ColorPrimaryLight">#FFCC80</color>
+    <color name="blue">#0000FF</color>
+    <color name="textColorPrimary">#FFFFFF</color>
+    <color name="windowBackground">#FFFFFF</color>
+    <color name="navigationBarColor">#000000</color>
+    <color name="LightBlue">#ADD8E6</color>
+    <color name="CustomViolet">#1E3C69</color>
+    <color name="White">#FFFFFF</color>
+    <color name="AlmostWhite">#F6F6F6</color>
+    <color name="Ivory">#FFFFF0</color>
+    <color name="LightYellow">#FFFFE0</color>
+    <color name="Yellow">#FFFF00</color>
+    <color name="Snow">#FFFAFA</color>
+    <color name="FloralWhite">#FFFAF0</color>
+    <color name="LemonChiffon">#FFFACD</color>
+    <color name="Cornsilk">#FFF8DC</color>
+    <color name="Seashell">#FFF5EE</color>
+    <color name="LavenderBlush">#FFF0F5</color>
+    <color name="PapayaWhip">#FFEFD5</color>
+    <color name="BlanchedAlmond">#FFEBCD</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="MistyRose">#FFE4E1</color>
+    <color name="Bisque">#FFE4C4</color>
+    <color name="Moccasin">#FFE4B5</color>
+    <color name="LightSalmon">#FFA07A</color>
+    <color name="TransparentGrey">#7FD3D3D3</color>
+    <color name="Transparent">#00000000</color>
+    <color name="TransparentBlack">#66000000</color>
+    <color name="LessTransparentBlack">#99000000</color>
+    <color name="DarkSeaGreen">#8FBC8F</color>
+    <color name="DarkGrey">#666666</color>
+    <color name="DarkerGray">#333333</color>
+    <color name="TransparentYellow">#CCFFFF00</color>
+
+    <color name="techMRed">#DB0029</color>
+    <color name="learn_bg">#1dc1ff</color>
+    <color name="play_bg">#0393a6</color>
+    <color name="shop_bg">#e57625</color>
+    <color name="click_bg">#0c6a9a</color>
+
+    <color name="DarkOrange">#FF8C00</color>
+    <color name="Coral">#FF7F50</color>
+    <color name="HotPink">#FF69B4</color>
+    <color name="Tomato">#FF6347</color>
+    <color name="OrangeRed">#FF4500</color>
+    <color name="DeepPink">#FF1493</color>
+    <color name="Fuchsia">#FF00FF</color>
+    <color name="Magenta">#FF00FF</color>
+    <color name="Red">#FF0000</color>
+    <color name="TransparentRed">#80ff4444</color>
+    <color name="TransparentGreen">#8044ff44</color>
+    <color name="OldLace">#FDF5E6</color>
+    <color name="LightGoldenrodYellow">#FAFAD2</color>
+    <color name="Linen">#FAF0E6</color>
+    <color name="AntiqueWhite">#FAEBD7</color>
+    <color name="Salmon">#FA8072</color>
+    <color name="GhostWhite">#F8F8FF</color>
+    <color name="MintCream">#F5FFFA</color>
+    <color name="WhiteSmoke">#F5F5F5</color>
+    <color name="DarkOliveGreen">#556B2F</color>
+    <color name="Indigo">#4B0082</color>
+    <color name="Default">@color/ColorPrimary</color>
+    <color name="MediumTurquoise">#48D1CC</color>
+    <color name="DarkSlateBlue">#483D8B</color>
+    <color name="SteelBlue">#4682B4</color>
+    <color name="RoyalBlue">#4169E1</color>
+    <color name="Turquoise">#40E0D0</color>
+    <color name="MediumSeaGreen">#3CB371</color>
+    <color name="LimeGreen">#32CD32</color>
+    <color name="DarkSlateGray">#2F4F4F</color>
+    <color name="SeaGreen">#2E8B57</color>
+    <color name="ForestGreen">#228B22</color>
+    <color name="LightSeaGreen">#20B2AA</color>
+    <color name="DodgerBlue">#1E90FF</color>
+    <color name="MidnightBlue">#191970</color>
+    <color name="Aqua">#00FFFF</color>
+    <color name="Cyan">#00FFFF</color>
+    <color name="SpringGreen">#00FF7F</color>
+    <color name="Lime">#00FF00</color>
+    <color name="MediumSpringGreen">#00FA9A</color>
+    <color name="DarkTurquoise">#00CED1</color>
+    <color name="DeepSkyBlue">#00BFFF</color>
+    <color name="DarkCyan">#008B8B</color>
+    <color name="Teal">#008080</color>
+    <color name="Green">#008000</color>
+    <color name="DarkGreen">#006400</color>
+    <color name="Blue">#0000FF</color>
+    <color name="MediumBlue">#0000CD</color>
+    <color name="DarkBlue">#00008B</color>
+    <color name="Navy">#000080</color>
+    <color name="Black">#000000</color>
+    <color name="CustomBlue">#003A69</color>
+    <color name="HintGrey">#808080</color>
+
+    <!-- A light Holo shade of blue -->
+    <color name="holo_blue_light">#ff33b5e5</color>
+    <!-- A light Holo shade of Transparent blue -->
+    <color name="holo_blue_light_transparent">#9933b5e5</color>
+    <!-- A light Holo shade of gray -->
+    <color name="holo_gray_light">#33999999</color>
+    <!-- A light Holo shade of green -->
+    <color name="holo_green_light">#ff99cc00</color>
+    <!-- A light Holo shade of red -->
+    <color name="holo_red_light">#ffff4444</color>
+    <!-- A dark Holo shade of blue -->
+    <color name="holo_blue_dark">#3DA4D9</color>
+
+    <color name="holo_blue_dark_original">#0099cc</color>
+    <!-- A dark Holo shade of green -->
+    <color name="holo_green_dark">#ff669900</color>
+    <!-- A dark Holo shade of red -->
+    <color name="holo_red_dark">#ffcc0000</color>
+    <!-- A Holo shade of purple -->
+    <color name="holo_purple">#ffaa66cc</color>
+    <!-- A light Holo shade of orange -->
+    <color name="holo_orange_light">#ffffbb33</color>
+    <!-- A dark Holo shade of orange -->
+    <color name="holo_orange_dark">#ffff8800</color>
+    <!-- A really bright Holo shade of blue -->
+    <color name="holo_blue_bright">#ff00ddff</color>
+    <!-- A really bright Holo shade of gray -->
+    <color name="holo_gray_bright">#33CCCCCC</color>
+
+    <color name="theme_orange">#F06D53</color>
+    <color name="navigation_drawer_sub_menu_color">#F7F7F7</color>
+    <color name="theme_action_bar">@color/Default</color>
+    <color name="theme_action_bar_text">#FFFFFF</color>
+
+</resources>

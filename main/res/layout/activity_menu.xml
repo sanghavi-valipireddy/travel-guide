@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="fill_parent"
+    android:layout_height="500dp"
+    android:orientation="vertical"
+    android:padding="8dp">
+    <LinearLayout android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true">
+
+        <Button
+            android:id="@+id/go"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="give count"
+            android:layout_weight="2"
+
+            android:textStyle="bold" />
+    </LinearLayout>
+    <!--</ScrollView>-->
+
+
+    <ExpandableListView
+        android:id="@+id/lvExp"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_weight="1"
+        android:layout_alignParentTop="true"
+        android:cacheColorHint="#00000000" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="breakfast"
+        android:id="@+id/breakfast"
+        android:layout_above="@+id/linearLayout1"
+        android:layout_alignParentLeft="true"
+        android:gravity="bottom"
+        android:layout_alignParentStart="true"
+        android:checked="false" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="lunch"
+        android:id="@+id/lunch"
+        android:checked="false"
+        android:layout_above="@+id/linearLayout1"
+        android:gravity="bottom"
+        android:layout_centerHorizontal="true" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="supper"
+        android:id="@+id/supper"
+        android:checked="false"
+        android:layout_above="@+id/linearLayout1"
+        android:layout_alignParentRight="true"
+        android:gravity="bottom"
+        android:layout_alignParentEnd="true" />
+
+
+    <!--<android.support.design.widget.CoordinatorLayout-->
+
+        <!--xmlns:tools="http://schemas.android.com/tools"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:fitsSystemWindows="true"-->
+        <!--tools:context="com.ibtspl.foodmanagement.MenuActivity">-->
+
+        <!--<android.support.design.widget.AppBarLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content">-->
+
+            <!--<android.support.v7.widget.Toolbar-->
+                <!--android:id="@+id/toolbar"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="?attr/actionBarSize"-->
+                <!--android:background="?attr/colorPrimary" />-->
+
+        <!--</android.support.design.widget.AppBarLayout>-->
+
+
+    <!--</android.support.design.widget.CoordinatorLayout>-->
+
+
+</RelativeLayout>
